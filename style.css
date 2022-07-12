@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    width: 100%;
+}
+.titulo-centralizado{
+    text-align: center;
+}
+.titulo-principal{
+    padding-left: 20px;
+}
+.principal{
+    background-color: #cccccc;
+    padding: 30px;
+}
+p{
+    text-align: center;
+}
+em strong{
+    color: red;
+}
+.missao{
+    font-size: 20px;
+}
+.beneficios{
+    padding: 20px;
+
+}
+/* display pode ser diferenciado em duas opçoes, inline que faz com que o elemento ocupe só o seu espaço
+ou o block que faz com que o elemento ocupe toda uma linha, e o proximo elemento surge em baixo dele */
+
+/* porem há o inline-block que faz com que o elemento permita outros elementos ao seu lado, e ocupe o espaço que o Dev definir */
+ul{
+    display: inline-block;
+    /* vertical-align define a orientação dos elementos ques estao um ao lado do outro */
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%
+}
+.beneficios__itens{
+    font-style: italic;
+}
+.beneficios__imagem{
+    width: 50%;
+}
