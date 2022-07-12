@@ -1,0 +1,29 @@
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto 0 auto;
+}
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+/* position static é a posicao inicial dele, sempre no canto da pagina */
+/* position relative ele é relativo a posicao dele, porem ele ainda obdece o ponto inicial */
+/* position absolute ele fica com o ponto absoluto á alguma referencia que ele pertence, tanto o nav ou o main */
+nav li{
+    display: inline;
+    /* margin: top, right, bottom, left */
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
